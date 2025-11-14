@@ -1,10 +1,8 @@
 // Structured Data (Schema.org) for Komfort Reality
 // This is CRITICAL for Google rich results and local SEO
 
-import { Organization, RealEstateAgent, LocalBusiness, BreadcrumbList } from 'schema-dts';
-
 // Main Organization Schema
-export const organizationSchema: Organization = {
+export const organizationSchema = {
   '@type': 'Organization',
   '@id': 'https://komfortreality.sk/#organization',
   name: 'Komfort Reality s.r.o.',
@@ -70,7 +68,7 @@ export const organizationSchema: Organization = {
 };
 
 // Real Estate Agent Schema (CRITICAL for real estate SEO)
-export const realEstateAgentSchema: RealEstateAgent = {
+export const realEstateAgentSchema = {
   '@type': 'RealEstateAgent',
   '@id': 'https://komfortreality.sk/#realestate',
   name: 'Komfort Reality',
@@ -144,7 +142,7 @@ export const realEstateAgentSchema: RealEstateAgent = {
 };
 
 // Local Business Schema (for Google Maps)
-export const localBusinessSchema: LocalBusiness = {
+export const localBusinessSchema = {
   '@type': 'LocalBusiness',
   '@id': 'https://komfortreality.sk/#localbusiness',
   name: 'Komfort Reality',
@@ -169,9 +167,6 @@ export const localBusinessSchema: LocalBusiness = {
   email: 'info@komfortreality.sk',
   url: 'https://komfortreality.sk',
   
-  // Business category
-  '@id': 'RealEstateAgent',
-  
   // Opening hours
   openingHours: 'Mo-Fr 09:00-17:00',
   
@@ -183,7 +178,7 @@ export const localBusinessSchema: LocalBusiness = {
 };
 
 // Breadcrumb Schema Generator
-export function getBreadcrumbSchema(items: Array<{ name: string; url: string }>): BreadcrumbList {
+export function getBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
   return {
     '@type': 'BreadcrumbList',
     itemListElement: items.map((item, index) => ({

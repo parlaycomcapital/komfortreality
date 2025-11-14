@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();
   
   // Main pages in all languages
-  const languages = ['sk', 'cz', 'en'];
+  const languages = ['sk', 'cz', 'en']; // Using 'cz' for Czech per project convention
   const pages = ['', 'about', 'services', 'properties', 'contact'];
   
   // Generate entries for all language/page combinations
@@ -24,9 +24,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
     alternates: {
       languages: {
-        sk: `${baseUrl}/sk`,
-        cz: `${baseUrl}/cz`,
-        en: `${baseUrl}/en`,
+        'sk': `${baseUrl}/sk`,
+        'cs-CZ': `${baseUrl}/cz`,
+        'en': `${baseUrl}/en`,
       },
     },
   });
@@ -43,9 +43,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: page === '' ? 0.9 : page === 'properties' ? 0.8 : 0.7,
         alternates: {
           languages: {
-            sk: page ? `${baseUrl}/sk/${page}` : `${baseUrl}/sk`,
-            cz: page ? `${baseUrl}/cz/${page}` : `${baseUrl}/cz`,
-            en: page ? `${baseUrl}/en/${page}` : `${baseUrl}/en`,
+            'sk': page ? `${baseUrl}/sk/${page}` : `${baseUrl}/sk`,
+            'cs-CZ': page ? `${baseUrl}/cz/${page}` : `${baseUrl}/cz`,
+            'en': page ? `${baseUrl}/en/${page}` : `${baseUrl}/en`,
           },
         },
       });
@@ -54,9 +54,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   
   // Add property listings (will be dynamic later)
   // Example: You'll add actual property URLs here
-  const propertyIds = []; // TODO: Fetch from database
+  const propertyIds: string[] = []; // TODO: Fetch from database
   
-  propertyIds.forEach((id) => {
+  propertyIds.forEach((id: string) => {
     sitemapEntries.push({
       url: `${baseUrl}/properties/${id}`,
       lastModified: currentDate,
