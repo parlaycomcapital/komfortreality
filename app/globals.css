@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter-tight: 'Inter Tight', system-ui, -apple-system, sans-serif;
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-textSecondary font-body antialiased;
+  overflow-x: hidden;
+}
+
+/* Luxury scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0F12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262A34;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E0B24F;
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgba(224, 178, 79, 0.3);
+  color: #F7F7F8;
+}
+
+/* Custom gradient text */
+.gradient-text {
+  background: linear-gradient(90deg, #F1D38A 0%, #E0B24F 50%, #BE8F2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(23, 26, 31, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Smooth image loading */
+img {
+  @apply transition-opacity duration-300;
+}
+
+/* Focus states */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(224, 178, 79, 0.7);
+  outline-offset: 2px;
+}
+
+/* Page container */
+.page-container {
+  @apply max-w-container mx-auto px-5 md:px-10 lg:px-10;
+}
+
+/* Section spacing */
+.section-padding {
+  @apply py-16 md:py-20 lg:py-24;
+}
+
+/* Hover lift effect */
+.hover-lift {
+  @apply transition-all duration-default;
+}
+
+.hover-lift:hover {
+  @apply -translate-y-1 shadow-soft;
+}
+
+/* Button base styles */
+.btn-base {
+  @apply inline-flex items-center justify-center gap-2.5 px-6 py-3 rounded-pill font-semibold text-[0.95rem] transition-all duration-default cursor-pointer;
+}
+
+.btn-primary {
+  @apply btn-base bg-gradient-primary text-textOnGold shadow-subtle;
+}
+
+.btn-primary:hover {
+  @apply bg-gradient-primary-hover shadow-soft scale-[1.02];
+}
+
+.btn-secondary {
+  @apply btn-base bg-surface text-textPrimary border border-borderStrong;
+}
+
+.btn-secondary:hover {
+  @apply bg-surfaceElevated border-primaryGold/70;
+}
+
+.btn-ghost {
+  @apply btn-base bg-transparent text-textPrimary;
+}
+
+.btn-ghost:hover {
+  @apply bg-surface;
+}
+
+/* Card base */
+.card {
+  @apply bg-surface border border-borderSubtle rounded-lg p-6 transition-all duration-default;
+}
+
+.card:hover {
+  @apply border-primaryGold/65 shadow-soft scale-[1.015] -translate-y-0.5;
+}
+
+/* Luxury divider */
+.luxury-divider {
+  @apply h-px bg-gradient-to-r from-transparent via-borderStrong to-transparent;
+}
+
