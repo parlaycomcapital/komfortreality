@@ -4,11 +4,19 @@ import { useState, useEffect } from "react";
 import { motion, useScroll } from "framer-motion";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import Image from "next/image";
+import { type Locale, createTranslator } from "@/i18n/config";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-export default function Header() {
+interface HeaderProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function Header({ lang, translations }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { scrollY } = useScroll();
+  const t = createTranslator(translations);
 
   useEffect(() => {
     return scrollY.on("change", (latest) => {
@@ -17,11 +25,11 @@ export default function Header() {
   }, [scrollY]);
 
   const navItems = [
-    { label: "Home", href: "#hero" },
-    { label: "Properties", href: "#properties" },
-    { label: "Services", href: "#services" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: t('nav.home'), href: "#hero" },
+    { label: t('nav.properties'), href: "#properties" },
+    { label: t('nav.services'), href: "#services" },
+    { label: t('nav.about'), href: "#about" },
+    { label: t('nav.contact'), href: "#contact" },
   ];
 
   return (
@@ -74,23 +82,29 @@ export default function Header() {
 
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4">
+            <LanguageSwitcher />
             <a
-              href="tel:+1234567890"
+              href={`tel:${t('contact.phone').replace(/\s/g, '')}`}
               className="flex items-center gap-2 text-textSecondary hover:text-primaryGold transition-colors duration-default"
             >
               <Phone className="w-4 h-4" />
-              <span className="text-sm font-medium">+420 123 456 789</span>
+              <span className="text-sm font-medium">{t('contact.phone')}</span>
             </a>
             <a href="#contact" className="btn-primary">
-              Contact Us
+              {t('nav.contact')}
             </a>
+          </div>
+
+          {/* Mobile Language Switcher */}
+          <div className="lg:hidden mr-2">
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2 text-textSecondary hover:text-textPrimary transition-colors"
-            aria-label="Toggle menu"
+            aria-label={t('common.menu')}
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -120,21 +134,21 @@ export default function Header() {
           ))}
           <div className="pt-4 border-t border-borderSubtle flex flex-col gap-3">
             <a
-              href="tel:+1234567890"
+              href={`tel:${t('contact.phone').replace(/\s/g, '')}`}
               className="flex items-center gap-3 text-textSecondary hover:text-primaryGold transition-colors"
             >
               <Phone className="w-5 h-5" />
-              <span>+420 123 456 789</span>
+              <span>{t('contact.phone')}</span>
             </a>
             <a
-              href="mailto:info@komfort-reality.com"
+              href={`mailto:${t('contact.email')}`}
               className="flex items-center gap-3 text-textSecondary hover:text-primaryGold transition-colors"
             >
               <Mail className="w-5 h-5" />
-              <span>info@komfort-reality.com</span>
+              <span>{t('contact.email')}</span>
             </a>
             <a href="#contact" className="btn-primary mt-2 text-center">
-              Contact Us
+              {t('nav.contact')}
             </a>
           </div>
         </nav>

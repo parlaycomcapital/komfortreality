@@ -3,8 +3,16 @@
 import { motion } from "framer-motion";
 import { Search, MapPin, Home, DollarSign, ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function Hero() {
+interface HeroProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function Hero({ lang, translations }: HeroProps) {
+  const t = createTranslator(translations);
+  
   const fadeInUp = {
     initial: { opacity: 0, y: 40 },
     animate: { opacity: 1, y: 0 },
@@ -27,7 +35,7 @@ export default function Hero() {
             <motion.div {...fadeInUp} transition={{ delay: 0.1, duration: 0.6 }}>
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-primaryGold/12 border border-primaryGold/30 rounded-pill text-primaryGold text-xs font-semibold uppercase tracking-[0.16em]">
                 <span className="w-2 h-2 bg-primaryGold rounded-full animate-pulse" />
-                Premium Real Estate Excellence
+                {t('hero.eyebrow')}
               </span>
             </motion.div>
 
@@ -37,8 +45,7 @@ export default function Hero() {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-textPrimary leading-[1.08] tracking-tight"
             >
-              Discover Your
-              <span className="block mt-2 gradient-text">Perfect Property</span>
+              {t('hero.title')}
             </motion.h1>
 
             {/* Subheadline */}
@@ -47,8 +54,7 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-textSecondary text-lg md:text-xl leading-relaxed max-w-xl"
             >
-              Experience unparalleled service with the region&apos;s most trusted luxury real estate agency.
-              10+ years of excellence, delivering dreams.
+              {t('hero.subtitle')}
             </motion.p>
 
             {/* CTA Buttons */}
@@ -58,11 +64,11 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <a href="#properties" className="btn-primary group">
-                Explore Properties
+                {t('hero.primaryCta')}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <a href="#contact" className="btn-secondary">
-                Sell My Property
+                {t('hero.secondaryCta')}
               </a>
             </motion.div>
 
@@ -73,16 +79,16 @@ export default function Hero() {
               className="flex flex-wrap gap-8 pt-4"
             >
               <div className="flex flex-col">
-                <span className="font-display text-3xl font-bold gradient-text">10+</span>
-                <span className="text-textMuted text-sm mt-1">Years Experience</span>
+                <span className="font-display text-3xl font-bold gradient-text">{t('stats.experience.number')}</span>
+                <span className="text-textMuted text-sm mt-1">{t('stats.experience.label')}</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-display text-3xl font-bold gradient-text">500+</span>
-                <span className="text-textMuted text-sm mt-1">Properties Sold</span>
+                <span className="font-display text-3xl font-bold gradient-text">{t('stats.transactions.number')}</span>
+                <span className="text-textMuted text-sm mt-1">{t('stats.transactions.label')}</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-display text-3xl font-bold gradient-text">4.9⭐</span>
-                <span className="text-textMuted text-sm mt-1">Client Rating</span>
+                <span className="font-display text-3xl font-bold gradient-text">{t('stats.rating.number')}</span>
+                <span className="text-textMuted text-sm mt-1">{t('stats.rating.label')}</span>
               </div>
             </motion.div>
           </div>
@@ -100,7 +106,7 @@ export default function Hero() {
 
               <div className="relative z-10">
                 <h3 className="font-display text-2xl font-bold text-textPrimary mb-6">
-                  Find Your Dream Home
+                  {t('hero.searchTitle')}
                 </h3>
 
                 {/* Search Form */}
@@ -110,7 +116,7 @@ export default function Hero() {
                     <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textMuted" />
                     <input
                       type="text"
-                      placeholder="Location (City, District)"
+                      placeholder={t('hero.searchLocation')}
                       className="w-full bg-background border border-borderSubtle rounded-md pl-12 pr-4 py-3.5 text-textPrimary placeholder:text-textMuted focus:border-primaryGold focus:outline-none focus:ring-1 focus:ring-primaryGold/40 transition-all"
                     />
                   </div>
@@ -119,12 +125,11 @@ export default function Hero() {
                   <div className="relative">
                     <Home className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textMuted" />
                     <select className="w-full bg-background border border-borderSubtle rounded-md pl-12 pr-4 py-3.5 text-textPrimary focus:border-primaryGold focus:outline-none focus:ring-1 focus:ring-primaryGold/40 transition-all appearance-none cursor-pointer">
-                      <option>Property Type</option>
-                      <option>Apartment</option>
-                      <option>House</option>
-                      <option>Villa</option>
-                      <option>Penthouse</option>
-                      <option>Land</option>
+                      <option>{t('hero.searchType')}</option>
+                      <option>Byt / Apartment</option>
+                      <option>Rodinný dom / House</option>
+                      <option>Vila / Villa</option>
+                      <option>Pozemok / Land</option>
                     </select>
                   </div>
 
@@ -132,33 +137,33 @@ export default function Hero() {
                   <div className="relative">
                     <DollarSign className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-textMuted" />
                     <select className="w-full bg-background border border-borderSubtle rounded-md pl-12 pr-4 py-3.5 text-textPrimary focus:border-primaryGold focus:outline-none focus:ring-1 focus:ring-primaryGold/40 transition-all appearance-none cursor-pointer">
-                      <option>Price Range</option>
-                      <option>Under $200,000</option>
-                      <option>$200,000 - $500,000</option>
-                      <option>$500,000 - $1,000,000</option>
-                      <option>$1,000,000+</option>
+                      <option>{t('hero.searchPrice')}</option>
+                      <option>€50,000 - €100,000</option>
+                      <option>€100,000 - €200,000</option>
+                      <option>€200,000 - €500,000</option>
+                      <option>€500,000+</option>
                     </select>
                   </div>
 
                   {/* Search Button */}
                   <button className="w-full btn-primary justify-center group">
                     <Search className="w-5 h-5" />
-                    Search Properties
+                    {t('hero.searchButton')}
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </button>
                 </div>
 
                 {/* Quick filters */}
                 <div className="flex flex-wrap gap-2 pt-4 border-t border-borderSubtle mt-6">
-                  <span className="text-sm text-textMuted">Popular:</span>
+                  <span className="text-sm text-textMuted">{t('hero.popularLabel')}</span>
                   <button className="text-sm px-3 py-1 bg-surface border border-borderSubtle rounded-pill text-textSecondary hover:border-primaryGold hover:text-primaryGold transition-all">
-                    Luxury Villas
+                    Ružomberok
                   </button>
                   <button className="text-sm px-3 py-1 bg-surface border border-borderSubtle rounded-pill text-textSecondary hover:border-primaryGold hover:text-primaryGold transition-all">
-                    City Center
+                    Žilina
                   </button>
                   <button className="text-sm px-3 py-1 bg-surface border border-borderSubtle rounded-pill text-textSecondary hover:border-primaryGold hover:text-primaryGold transition-all">
-                    New Build
+                    Liptov
                   </button>
                 </div>
               </div>

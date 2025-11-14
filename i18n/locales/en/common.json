@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "home": "Home",
+    "properties": "Properties",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Premium Real Estate Services",
+    "title": "Discover Your Perfect Property",
+    "subtitle": "TODO: Insert real EN text - currently: Over 10 years of excellence in delivering premium real estate services in Ružomberok and surrounding areas.",
+    "primaryCta": "Explore Properties",
+    "secondaryCta": "Sell My Property",
+    "searchTitle": "Find Your Dream Home",
+    "searchLocation": "Location (City, District)",
+    "searchType": "Property Type",
+    "searchPrice": "Price Range",
+    "searchButton": "Search Properties",
+    "popularLabel": "Popular:"
+  },
+  "stats": {
+    "experience": {
+      "number": "10+",
+      "label": "Years of Excellence",
+      "description": "Proven track record in real estate"
+    },
+    "transactions": {
+      "number": "500+",
+      "label": "Successful Transactions",
+      "description": "Helping families find their homes"
+    },
+    "rating": {
+      "number": "4.9⭐",
+      "label": "Google Rating",
+      "description": "Trusted by hundreds of satisfied clients"
+    }
+  },
+  "properties": {
+    "eyebrow": "Premium Selection",
+    "title": "Featured Properties",
+    "subtitle": "TODO: Insert real EN text - Handpicked luxury properties in Ružomberok and surroundings",
+    "viewDetails": "View Details",
+    "viewAll": "View All Properties",
+    "beds": "Beds",
+    "baths": "Baths",
+    "area": "Area"
+  },
+  "about": {
+    "eyebrow": "Why Komfort Reality",
+    "title": "Excellence in Every Transaction",
+    "subtitle": "TODO: Insert real EN text from old site about section",
+    "trusted": {
+      "title": "Trusted & Transparent",
+      "description": "TODO: Real EN text - Full legal support and transparent processes"
+    },
+    "premium": {
+      "title": "Premium Selection",
+      "description": "TODO: Real EN text - Exclusive access to the finest properties"
+    },
+    "expert": {
+      "title": "Expert Guidance",
+      "description": "TODO: Real EN text - Experienced agents with deep market knowledge"
+    }
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "Comprehensive Real Estate Solutions",
+    "subtitle": "TODO: Insert real EN text - From initial consultation to final handover",
+    "buying": {
+      "title": "Property Acquisition",
+      "description": "TODO: Real EN service description from old site"
+    },
+    "selling": {
+      "title": "Property Sales",
+      "description": "TODO: Real EN service description from old site"
+    },
+    "legal": {
+      "title": "Legal Advisory",
+      "description": "TODO: Real EN service description from old site"
+    },
+    "valuation": {
+      "title": "Property Valuation",
+      "description": "TODO: Real EN service description from old site"
+    },
+    "mortgage": {
+      "title": "Mortgage Consulting",
+      "description": "TODO: Real EN service description from old site"
+    },
+    "management": {
+      "title": "Property Management",
+      "description": "TODO: Real EN service description from old site"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Client Testimonials",
+    "title": "Trusted by Hundreds of Happy Clients",
+    "subtitle": "Real stories from real people",
+    "clients": [
+      {
+        "name": "TODO: Real client name",
+        "role": "Property Buyer",
+        "location": "Ružomberok",
+        "text": "TODO: Real testimonial from satisfied client"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Let's Start Your Journey",
+    "title": "Ready to Make Your Next Move?",
+    "subtitle": "TODO: Insert real EN text - Whether buying or selling, we're here for you",
+    "primaryButton": "Schedule Consultation",
+    "secondaryButton": "Call Now",
+    "response": "Response within 24 hours",
+    "consultation": "Free consultation",
+    "obligation": "No obligation"
+  },
+  "contact": {
+    "phone": "+421 xxx xxx xxx",
+    "email": "info@komfortreality.sk",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "address": "TODO: Real address from Ružomberok office",
+    "addressLabel": "Address"
+  },
+  "footer": {
+    "tagline": "TODO: Insert real EN tagline from old site",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "legal": "Legal",
+    "aboutUs": "About Us",
+    "ourTeam": "Our Team",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies",
+    "rights": "© {year} Komfort Reality. All rights reserved.",
+    "crafted": "Crafted with",
+    "excellence": "for excellence"
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "close": "Close",
+    "menu": "Menu"
+  }
+}
+

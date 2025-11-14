@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "home": "Domov",
+    "properties": "Nehnuteľnosti",
+    "services": "Služby",
+    "about": "O nás",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "Prémiové realitné služby",
+    "title": "Objavte váš dokonalý domov",
+    "subtitle": "TODO: Insert real SK text - currently: Viac ako 10 rokov skúseností v poskytovaní špičkových realitných služieb v Ružomberku a okolí.",
+    "primaryCta": "Prehliadnuť nehnuteľnosti",
+    "secondaryCta": "Predať nehnuteľnosť",
+    "searchTitle": "Nájdite váš vysnívaný domov",
+    "searchLocation": "Lokalita (Mesto, Okres)",
+    "searchType": "Typ nehnuteľnosti",
+    "searchPrice": "Cenové rozpätie",
+    "searchButton": "Vyhľadať nehnuteľnosti",
+    "popularLabel": "Obľúbené:"
+  },
+  "stats": {
+    "experience": {
+      "number": "10+",
+      "label": "Rokov skúseností",
+      "description": "Osvedčená história na realitnom trhu"
+    },
+    "transactions": {
+      "number": "500+",
+      "label": "Úspešných transakcií",
+      "description": "Pomáhame rodinám nájsť ich domov"
+    },
+    "rating": {
+      "number": "4.9⭐",
+      "label": "Google hodnotenie",
+      "description": "Dôvera stoviek spokojných klientov"
+    }
+  },
+  "properties": {
+    "eyebrow": "Prémiová ponuka",
+    "title": "Vybrané nehnuteľnosti",
+    "subtitle": "TODO: Insert real SK text - Starostlivo vybrané luxusné nehnuteľnosti v Ružomberku a okolí",
+    "viewDetails": "Zobraziť detaily",
+    "viewAll": "Zobraziť všetky nehnuteľnosti",
+    "beds": "Izby",
+    "baths": "Kúpeľne",
+    "area": "Plocha"
+  },
+  "about": {
+    "eyebrow": "Prečo Komfort Reality",
+    "title": "Excelentnosť v každej transakcii",
+    "subtitle": "TODO: Insert real SK text from old site about section",
+    "trusted": {
+      "title": "Dôveryhodný a transparentný",
+      "description": "TODO: Real SK text - Plná právna podpora a transparentné procesy"
+    },
+    "premium": {
+      "title": "Prémiový výber",
+      "description": "TODO: Real SK text - Exkluzívny prístup k najlepším nehnuteľnostiam"
+    },
+    "expert": {
+      "title": "Odborné poradenstvo",
+      "description": "TODO: Real SK text - Skúsení makléri s hlbokými znalosťami trhu"
+    }
+  },
+  "services": {
+    "eyebrow": "Naše služby",
+    "title": "Komplexné realitné riešenia",
+    "subtitle": "TODO: Insert real SK text - Od prvej konzultácie až po odovzdanie kľúčov",
+    "buying": {
+      "title": "Kúpa nehnuteľnosti",
+      "description": "TODO: Real SK service description from old site"
+    },
+    "selling": {
+      "title": "Predaj nehnuteľnosti",
+      "description": "TODO: Real SK service description from old site"
+    },
+    "legal": {
+      "title": "Právne poradenstvo",
+      "description": "TODO: Real SK service description from old site"
+    },
+    "valuation": {
+      "title": "Odhad nehnuteľnosti",
+      "description": "TODO: Real SK service description from old site"
+    },
+    "mortgage": {
+      "title": "Hypotekárne poradenstvo",
+      "description": "TODO: Real SK service description from old site"
+    },
+    "management": {
+      "title": "Správa nehnuteľností",
+      "description": "TODO: Real SK service description from old site"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Hodnotenia klientov",
+    "title": "Dôvera stoviek spokojných klientov",
+    "subtitle": "Skutočné príbehy od skutočných ľudí",
+    "clients": [
+      {
+        "name": "TODO: Real client name",
+        "role": "Kúpa bytu",
+        "location": "Ružomberok",
+        "text": "TODO: Real testimonial from satisfied client"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Začnime Vašu cestu",
+    "title": "Pripravení uskutočniť váš ďalší krok?",
+    "subtitle": "TODO: Insert real SK text - Či už kupujete alebo predávate, sme tu pre vás",
+    "primaryButton": "Naplánovať konzultáciu",
+    "secondaryButton": "Zavolať teraz",
+    "response": "Odpoveď do 24 hodín",
+    "consultation": "Bezplatná konzultácia",
+    "obligation": "Bez záväzkov"
+  },
+  "contact": {
+    "phone": "+421 xxx xxx xxx",
+    "email": "info@komfortreality.sk",
+    "phoneLabel": "Telefón",
+    "emailLabel": "E-mail",
+    "address": "TODO: Real address from Ružomberok office",
+    "addressLabel": "Adresa"
+  },
+  "footer": {
+    "tagline": "TODO: Insert real SK tagline from old site",
+    "company": "Spoločnosť",
+    "services": "Služby",
+    "resources": "Zdroje",
+    "legal": "Právne informácie",
+    "aboutUs": "O nás",
+    "ourTeam": "Náš tím",
+    "careers": "Kariéra",
+    "privacy": "Ochrana osobných údajov",
+    "terms": "Podmienky používania",
+    "cookies": "Cookies",
+    "rights": "© {year} Komfort Reality. Všetky práva vyhradené.",
+    "crafted": "Vytvorené s",
+    "excellence": "pre excelenciu"
+  },
+  "common": {
+    "readMore": "Čítať viac",
+    "learnMore": "Zistiť viac",
+    "close": "Zavrieť",
+    "menu": "Menu"
+  }
+}
+
