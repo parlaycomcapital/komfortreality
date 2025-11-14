@@ -3,8 +3,15 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, ArrowUp } from "lucide-react";
 import Image from "next/image";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function Footer() {
+interface FooterProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function Footer({ lang, translations }: FooterProps) {
+  const t = createTranslator(translations);
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -75,37 +82,35 @@ export default function Footer() {
               </div>
 
               <p className="text-textSecondary leading-relaxed mb-6 max-w-sm">
-                Your trusted partner in luxury real estate. Delivering excellence since 2013 with integrity, expertise, and unmatched service.
+                {t('footer.tagline')}
               </p>
 
               {/* Contact Info */}
               <div className="space-y-3">
                 <a 
-                  href="tel:+420123456789"
+                  href={`tel:${t('contact.phone').replace(/\s/g, '')}`}
                   className="flex items-center gap-3 text-textSecondary hover:text-primaryGold transition-colors group"
                 >
                   <div className="w-8 h-8 bg-surface border border-borderSubtle rounded-lg flex items-center justify-center group-hover:border-primaryGold/50 transition-colors">
                     <Phone className="w-4 h-4" />
                   </div>
-                  <span className="text-sm">+420 123 456 789</span>
+                  <span className="text-sm">{t('contact.phone')}</span>
                 </a>
                 <a 
-                  href="mailto:info@komfort-reality.com"
+                  href={`mailto:${t('contact.email')}`}
                   className="flex items-center gap-3 text-textSecondary hover:text-primaryGold transition-colors group"
                 >
                   <div className="w-8 h-8 bg-surface border border-borderSubtle rounded-lg flex items-center justify-center group-hover:border-primaryGold/50 transition-colors">
                     <Mail className="w-4 h-4" />
                   </div>
-                  <span className="text-sm">info@komfort-reality.com</span>
+                  <span className="text-sm">{t('contact.email')}</span>
                 </a>
                 <div className="flex items-start gap-3 text-textSecondary">
                   <div className="w-8 h-8 bg-surface border border-borderSubtle rounded-lg flex items-center justify-center mt-0.5">
                     <MapPin className="w-4 h-4" />
                   </div>
                   <span className="text-sm">
-                    Pařížská 123/28<br />
-                    110 00 Praha 1<br />
-                    Czech Republic
+                    {t('contact.address')}
                   </span>
                 </div>
               </div>
@@ -144,7 +149,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.6 }}
           >
-            <h4 className="font-display font-bold text-textPrimary mb-4">Company</h4>
+            <h4 className="font-display font-bold text-textPrimary mb-4">{t('footer.company')}</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
@@ -165,7 +170,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            <h4 className="font-display font-bold text-textPrimary mb-4">Services</h4>
+            <h4 className="font-display font-bold text-textPrimary mb-4">{t('footer.services')}</h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.label}>
@@ -186,7 +191,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            <h4 className="font-display font-bold text-textPrimary mb-4">Resources</h4>
+            <h4 className="font-display font-bold text-textPrimary mb-4">{t('footer.resources')}</h4>
             <ul className="space-y-3">
               {footerLinks.resources.map((link) => (
                 <li key={link.label}>
@@ -207,7 +212,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            <h4 className="font-display font-bold text-textPrimary mb-4">Legal</h4>
+            <h4 className="font-display font-bold text-textPrimary mb-4">{t('footer.legal')}</h4>
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
                 <li key={link.label}>
@@ -233,7 +238,7 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               className="text-textMuted text-sm"
             >
-              © {new Date().getFullYear()} Komfort Reality. All rights reserved.
+              {t('footer.rights').replace('{year}', new Date().getFullYear().toString())}
             </motion.p>
 
             <motion.div
@@ -243,9 +248,9 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               className="flex items-center gap-2"
             >
-              <span className="text-textMuted text-sm">Crafted with</span>
+              <span className="text-textMuted text-sm">{t('footer.crafted')}</span>
               <span className="text-primaryGold">✦</span>
-              <span className="text-textMuted text-sm">for excellence</span>
+              <span className="text-textMuted text-sm">{t('footer.excellence')}</span>
             </motion.div>
           </div>
         </div>

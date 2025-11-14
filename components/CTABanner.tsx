@@ -2,8 +2,15 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, Mail } from "lucide-react";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function CTABanner() {
+interface CTABannerProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function CTABanner({ lang, translations }: CTABannerProps) {
+  const t = createTranslator(translations);
   return (
     <section id="contact" className="section-padding bg-gradient-cta relative overflow-hidden">
       {/* Decorative elements */}
@@ -43,7 +50,7 @@ export default function CTABanner() {
                 className="inline-flex items-center gap-2 px-4 py-2 bg-primaryGold/12 border border-primaryGold/30 rounded-pill text-primaryGold text-xs font-semibold uppercase tracking-[0.16em] mb-8"
               >
                 <span className="w-2 h-2 bg-primaryGold rounded-full animate-pulse" />
-                Let&apos;s Start Your Journey
+                {t('cta.eyebrow')}
               </motion.div>
 
               {/* Headline */}
@@ -54,8 +61,7 @@ export default function CTABanner() {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-textPrimary mb-6 tracking-tight"
               >
-                Ready to Make Your
-                <span className="block mt-2 gradient-text">Next Move?</span>
+                {t('cta.title')}
               </motion.h2>
 
               {/* Subheadline */}
@@ -66,7 +72,7 @@ export default function CTABanner() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="text-textSecondary text-xl leading-relaxed max-w-2xl mx-auto mb-10"
               >
-                Whether you&apos;re buying your dream home or selling your property, our expert team is here to guide you every step of the way.
+                {t('cta.subtitle')}
               </motion.p>
 
               {/* CTA Buttons */}
@@ -78,12 +84,12 @@ export default function CTABanner() {
                 className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
               >
                 <a href="#contact-form" className="btn-primary group">
-                  Schedule a Consultation
+                  {t('cta.primaryButton')}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
-                <a href="tel:+420123456789" className="btn-secondary">
+                <a href={`tel:${t('contact.phone').replace(/\s/g, '')}`} className="btn-secondary">
                   <Phone className="w-5 h-5" />
-                  Call Us Now
+                  {t('cta.secondaryButton')}
                 </a>
               </motion.div>
 
@@ -96,19 +102,19 @@ export default function CTABanner() {
                 className="flex flex-col sm:flex-row items-center justify-center gap-6 text-textMuted"
               >
                 <a 
-                  href="tel:+420123456789"
+                  href={`tel:${t('contact.phone').replace(/\s/g, '')}`}
                   className="flex items-center gap-2 hover:text-primaryGold transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>+420 123 456 789</span>
+                  <span>{t('contact.phone')}</span>
                 </a>
                 <span className="hidden sm:block">•</span>
                 <a 
-                  href="mailto:info@komfort-reality.com"
+                  href={`mailto:${t('contact.email')}`}
                   className="flex items-center gap-2 hover:text-primaryGold transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>info@komfort-reality.com</span>
+                  <span>{t('contact.email')}</span>
                 </a>
               </motion.div>
             </div>
@@ -124,15 +130,15 @@ export default function CTABanner() {
           >
             <div className="flex items-center gap-2 text-textMuted">
               <div className="w-2 h-2 bg-primaryGold rounded-full" />
-              <span className="text-sm">Response within 24 hours</span>
+              <span className="text-sm">{t('cta.response')}</span>
             </div>
             <div className="flex items-center gap-2 text-textMuted">
               <div className="w-2 h-2 bg-primaryGold rounded-full" />
-              <span className="text-sm">Free consultation</span>
+              <span className="text-sm">{t('cta.consultation')}</span>
             </div>
             <div className="flex items-center gap-2 text-textMuted">
               <div className="w-2 h-2 bg-primaryGold rounded-full" />
-              <span className="text-sm">No obligation</span>
+              <span className="text-sm">{t('cta.obligation')}</span>
             </div>
           </motion.div>
         </motion.div>

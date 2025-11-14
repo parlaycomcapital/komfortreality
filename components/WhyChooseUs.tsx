@@ -2,50 +2,57 @@
 
 import { motion } from "framer-motion";
 import { Award, Users, Shield, TrendingUp, Star, CheckCircle } from "lucide-react";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function WhyChooseUs() {
+interface WhyChooseUsProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function WhyChooseUs({ lang, translations }: WhyChooseUsProps) {
+  const t = createTranslator(translations);
   const stats = [
     {
       icon: Award,
-      number: "10+",
-      label: "Years of Excellence",
-      description: "Proven track record in luxury real estate",
+      number: t('stats.experience.number'),
+      label: t('stats.experience.label'),
+      description: t('stats.experience.description'),
     },
     {
       icon: Users,
-      number: "500+",
-      label: "Successful Transactions",
-      description: "Helping families find their dream homes",
+      number: t('stats.transactions.number'),
+      label: t('stats.transactions.label'),
+      description: t('stats.transactions.description'),
     },
     {
       icon: Star,
-      number: "4.9",
-      label: "Google Rating",
-      description: "Trusted by hundreds of satisfied clients",
+      number: t('stats.rating.number'),
+      label: t('stats.rating.label'),
+      description: t('stats.rating.description'),
     },
     {
       icon: TrendingUp,
-      number: "€2.4B",
-      label: "Properties Sold",
-      description: "Total value of transactions completed",
+      number: "€50M+",
+      label: t('stats.transactions.label'),
+      description: t('stats.transactions.description'),
     },
   ];
 
   const features = [
     {
       icon: Shield,
-      title: "Trusted & Transparent",
-      description: "Full legal support and transparent processes at every step of your journey.",
+      title: t('about.trusted.title'),
+      description: t('about.trusted.description'),
     },
     {
       icon: Award,
-      title: "Premium Selection",
-      description: "Exclusive access to the finest properties in prime locations across the region.",
+      title: t('about.premium.title'),
+      description: t('about.premium.description'),
     },
     {
       icon: Users,
-      title: "Expert Guidance",
-      description: "Dedicated agents with deep local knowledge and international expertise.",
+      title: t('about.expert.title'),
+      description: t('about.expert.description'),
     },
   ];
 
@@ -61,13 +68,13 @@ export default function WhyChooseUs() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="inline-block px-4 py-2 bg-primaryGold/12 border border-primaryGold/30 rounded-pill text-primaryGold text-xs font-semibold uppercase tracking-[0.16em] mb-6">
-            Why Choose Us
+            {t('about.eyebrow')}
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-textPrimary mb-6 tracking-tight">
-            Excellence in Every Transaction
+            {t('about.title')}
           </h2>
           <p className="text-textSecondary text-lg leading-relaxed">
-            We combine decades of expertise with cutting-edge technology to deliver an unparalleled real estate experience.
+            {t('about.subtitle')}
           </p>
         </motion.div>
 

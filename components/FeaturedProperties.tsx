@@ -3,8 +3,15 @@
 import { motion } from "framer-motion";
 import { MapPin, Maximize2, Bed, Bath, Heart, ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function FeaturedProperties() {
+interface FeaturedPropertiesProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function FeaturedProperties({ lang, translations }: FeaturedPropertiesProps) {
+  const t = createTranslator(translations);
   const properties = [
     {
       id: 1,
@@ -111,13 +118,13 @@ export default function FeaturedProperties() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="inline-block px-4 py-2 bg-primaryGold/12 border border-primaryGold/30 rounded-pill text-primaryGold text-xs font-semibold uppercase tracking-[0.16em] mb-6">
-            Premium Selection
+            {t('properties.eyebrow')}
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-textPrimary mb-6 tracking-tight">
-            Featured Properties
+            {t('properties.title')}
           </h2>
           <p className="text-textSecondary text-lg leading-relaxed">
-            Handpicked luxury properties that define modern living. Each residence represents the pinnacle of design, location, and lifestyle.
+            {t('properties.subtitle')}
           </p>
         </motion.div>
 
@@ -197,7 +204,7 @@ export default function FeaturedProperties() {
 
                   {/* View Details Button */}
                   <button className="w-full btn-secondary justify-center group/btn">
-                    View Details
+                    {t('properties.viewDetails')}
                     <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                   </button>
                 </div>
@@ -215,7 +222,7 @@ export default function FeaturedProperties() {
           className="text-center mt-12"
         >
           <a href="#all-properties" className="btn-primary group inline-flex">
-            View All Properties
+            {t('properties.viewAll')}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>

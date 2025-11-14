@@ -2,43 +2,50 @@
 
 import { motion } from "framer-motion";
 import { Home, TrendingUp, Scale, Calculator, FileText, Key } from "lucide-react";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function Services() {
+interface ServicesProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function Services({ lang, translations }: ServicesProps) {
+  const t = createTranslator(translations);
   const services = [
     {
       icon: Home,
-      title: "Property Buying",
-      description: "Expert guidance through every step of your property purchase, from search to handover. We ensure you find the perfect match for your lifestyle and investment goals.",
+      title: t('services.buying.title'),
+      description: t('services.buying.description'),
       features: ["Property search", "Market analysis", "Negotiation support"],
     },
     {
       icon: TrendingUp,
-      title: "Property Selling",
-      description: "Maximize your property's value with our strategic marketing and extensive buyer network. Professional photography, premium listings, and expert negotiation.",
+      title: t('services.selling.title'),
+      description: t('services.selling.description'),
       features: ["Property valuation", "Marketing campaign", "Buyer qualification"],
     },
     {
       icon: Scale,
-      title: "Legal Advisory",
-      description: "Navigate complex real estate law with confidence. Our legal experts handle contracts, due diligence, and ensure full compliance with local regulations.",
+      title: t('services.legal.title'),
+      description: t('services.legal.description'),
       features: ["Contract review", "Title verification", "Legal documentation"],
     },
     {
       icon: Calculator,
-      title: "Property Valuation",
-      description: "Get accurate, market-driven valuations for your property. Our experts analyze comparable sales, market trends, and property condition for precise pricing.",
+      title: t('services.valuation.title'),
+      description: t('services.valuation.description'),
       features: ["Market analysis", "Comparative study", "Investment advice"],
     },
     {
       icon: FileText,
-      title: "Mortgage Consulting",
-      description: "Access the best financing options with our mortgage advisory services. We partner with leading banks to secure competitive rates for your investment.",
+      title: t('services.mortgage.title'),
+      description: t('services.mortgage.description'),
       features: ["Loan comparison", "Application support", "Rate negotiation"],
     },
     {
       icon: Key,
-      title: "Property Management",
-      description: "Comprehensive management services for property owners and investors. From tenant screening to maintenance, we handle all aspects of property care.",
+      title: t('services.management.title'),
+      description: t('services.management.description'),
       features: ["Tenant management", "Maintenance", "Financial reporting"],
     },
   ];
@@ -58,13 +65,13 @@ export default function Services() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="inline-block px-4 py-2 bg-primaryGold/12 border border-primaryGold/30 rounded-pill text-primaryGold text-xs font-semibold uppercase tracking-[0.16em] mb-6">
-            Our Services
+            {t('services.eyebrow')}
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-textPrimary mb-6 tracking-tight">
-            Comprehensive Real Estate Solutions
+            {t('services.title')}
           </h2>
           <p className="text-textSecondary text-lg leading-relaxed">
-            From initial consultation to final handover, we provide end-to-end services tailored to your unique real estate needs.
+            {t('services.subtitle')}
           </p>
         </motion.div>
 

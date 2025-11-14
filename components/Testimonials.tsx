@@ -2,8 +2,15 @@
 
 import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
+import { type Locale, createTranslator } from "@/i18n/config";
 
-export default function Testimonials() {
+interface TestimonialsProps {
+  lang: Locale;
+  translations: any;
+}
+
+export default function Testimonials({ lang, translations }: TestimonialsProps) {
+  const t = createTranslator(translations);
   const testimonials = [
     {
       name: "Michael & Sarah Thompson",
@@ -71,13 +78,13 @@ export default function Testimonials() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <span className="inline-block px-4 py-2 bg-primaryGold/12 border border-primaryGold/30 rounded-pill text-primaryGold text-xs font-semibold uppercase tracking-[0.16em] mb-6">
-            Client Testimonials
+            {t('testimonials.eyebrow')}
           </span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-textPrimary mb-6 tracking-tight">
-            Trusted by Hundreds of Happy Clients
+            {t('testimonials.title')}
           </h2>
           <p className="text-textSecondary text-lg leading-relaxed">
-            Real stories from real people who found their perfect property with us.
+            {t('testimonials.subtitle')}
           </p>
         </motion.div>
 
