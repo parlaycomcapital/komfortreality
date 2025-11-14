@@ -7,11 +7,11 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "eyebrow": "Prémiové realitní služby",
-    "title": "Objevte váš dokonalý domov",
-    "subtitle": "TODO: Insert real CZ text - currently: Více než 10 let zkušeností v poskytování špičkových realitních služeb v Ružomberku a okolí.",
-    "primaryCta": "Prohlédnout nemovitosti",
-    "secondaryCta": "Prodat nemovitost",
+    "eyebrow": "Realitní kancelář · Liptov a Orava",
+    "title": "Komfort Reality – Váš spolehlivý partner při prodeji a koupi nemovitostí",
+    "subtitle": "Pomáháme bezpečně prodat, koupit nebo pronajmout byt, dům či pozemek v regionu Liptov a Orava. Osobní přístup, kompletní právní servis a dlouholeté zkušenosti na jednom místě.",
+    "primaryCta": "Zobrazit aktuální nabídku",
+    "secondaryCta": "Chci prodat nemovitost",
     "searchTitle": "Najděte váš vysněný domov",
     "searchLocation": "Lokalita (Město, Okres)",
     "searchType": "Typ nemovitosti",
@@ -23,23 +23,23 @@
     "experience": {
       "number": "10+",
       "label": "Let zkušeností",
-      "description": "Osvědčená historie na realitním trhu"
+      "description": "Mnohaleté zkušenosti na trhu nemovitostí v regionu Liptov a Orava"
     },
     "transactions": {
       "number": "500+",
       "label": "Úspěšných transakcí",
-      "description": "Pomáháme rodinám najít jejich domov"
+      "description": "Úspěšně dokončené prodeje, koupě a pronájmy"
     },
     "rating": {
       "number": "4.9⭐",
-      "label": "Google hodnocení",
-      "description": "Důvěra stovek spokojených klientů"
+      "label": "Spokojení klienti",
+      "description": "Dlouhodobě spokojení klienti a osobní doporučení"
     }
   },
   "properties": {
-    "eyebrow": "Prémiová nabídka",
+    "eyebrow": "Aktuální nabídka",
     "title": "Vybrané nemovitosti",
-    "subtitle": "TODO: Insert real CZ text - Pečlivě vybrané luxusní nemovitosti v Ružomberku a okolí",
+    "subtitle": "V naší nabídce najdete vždy jen reálné nemovitosti v Ružomberku, Liptově a okolí. Každou nabídku pravidelně aktualizujeme.",
     "viewDetails": "Zobrazit detaily",
     "viewAll": "Zobrazit všechny nemovitosti",
     "beds": "Pokoje",
@@ -47,68 +47,68 @@
     "area": "Plocha"
   },
   "about": {
-    "eyebrow": "Proč Komfort Reality",
-    "title": "Excelentnost v každé transakci",
-    "subtitle": "TODO: Insert real CZ text from old site about section",
+    "eyebrow": "Kdo je Komfort Reality",
+    "title": "Váš spolehlivý partner v regionu",
+    "subtitle": "Komfort Reality je stabilní realitní kancelář se sídlem v Ružomberku. Již několik let provázíme klienty při prodeji, koupi a pronájmu nemovitostí v regionu Liptov a Orava. Naším cílem není pouze uzavřít obchod, ale zajistit, aby celý proces proběhl férově, bezpečně a bez zbytečného stresu. Spojujeme detailní znalost místního trhu, osobní přístup a kompletní právní servis, aby byla vaše nemovitost v profesionálních rukou.",
     "trusted": {
-      "title": "Důvěryhodný a transparentní",
-      "description": "TODO: Real CZ text - Plná právní podpora a transparentní procesy"
+      "title": "Férový přístup",
+      "description": "Transparentní komunikace, jasné smlouvy a kompletní právní servis v každé fázi"
     },
     "premium": {
-      "title": "Prémiový výběr",
-      "description": "TODO: Real CZ text - Exkluzivní přístup k nejlepším nemovitostem"
+      "title": "Znalost trhu",
+      "description": "Detailní orientace v regionu Liptov a Orava – známe lokality, ceny i možnosti"
     },
     "expert": {
-      "title": "Odborné poradenství",
-      "description": "TODO: Real CZ text - Zkušení makléři s hlubokými znalostmi trhu"
+      "title": "Osobní přístup",
+      "description": "Každého klienta provázíme individuálně – od prvního kontaktu až po předání klíčů"
     }
   },
   "services": {
     "eyebrow": "Naše služby",
     "title": "Komplexní realitní řešení",
-    "subtitle": "TODO: Insert real CZ text - Od první konzultace až po předání klíčů",
+    "subtitle": "Od první konzultace až po předání klíčů – provázíme vás na každém kroku.",
     "buying": {
-      "title": "Koupě nemovitosti",
-      "description": "TODO: Real CZ service description from old site"
+      "title": "Koupě bytu, domu nebo pozemku",
+      "description": "Pomůžeme vám najít vhodnou nemovitost v Ružomberku, Liptově a okolí. Doporučíme správnou lokalitu, prověříme právní stav a zajistíme všechny podklady, aby koupě proběhla bez komplikací. Od první prohlídky až po předání klíčů máte po svém boku spolehlivého partnera."
     },
     "selling": {
       "title": "Prodej nemovitosti",
-      "description": "TODO: Real CZ service description from old site"
+      "description": "Postaráme se o celý proces prodeje – od nastavení reálné ceny přes přípravu nemovitosti, inzerci a prohlídky až po podpis smluv a předání. Zajišťujeme smluvní dokumentaci, komunikaci s katastrem i součinnost s bankou. Vaším cílem je bezpečně prodat, naším je bezpečně uzavřít celý obchod."
     },
     "legal": {
-      "title": "Právní poradenství",
-      "description": "TODO: Real CZ service description from old site"
+      "title": "Právní servis a poradenství",
+      "description": "Ke každému obchodu přistupujeme zodpovědně – od rezervačních smluv přes kupní smlouvy až po návrhy na vklad. Spolupracujeme s právníky a notáři, aby byly smlouvy v souladu s legislativou a chránily vaše zájmy. Zajišťujeme komunikaci s katastrem i kompletní administrativu."
     },
     "valuation": {
       "title": "Odhad nemovitosti",
-      "description": "TODO: Real CZ service description from old site"
+      "description": "Poskytneme vám profesionální odhad tržní hodnoty vaší nemovitosti na základě aktuální situace na trhu, polohy a stavu objektu."
     },
     "mortgage": {
       "title": "Hypoteční poradenství",
-      "description": "TODO: Real CZ service description from old site"
+      "description": "Spolupracujeme s více finančními institucemi a klientům pomáháme najít vhodné hypoteční financování. Vysvětlíme podmínky jednotlivých nabídek, pomůžeme s dokumenty a zajistíme hladkou koordinaci s bankou."
     },
     "management": {
-      "title": "Správa nemovitostí",
-      "description": "TODO: Real CZ service description from old site"
+      "title": "Kompletní péče",
+      "description": "Poskytujeme komplexní servis – od vyhledání nemovitosti, přes právní poradenství až po předání. Vše na jednom místě, s důrazem na kvalitu a bezpečnost."
     }
   },
   "testimonials": {
-    "eyebrow": "Hodnocení klientů",
-    "title": "Důvěra stovek spokojených klientů",
-    "subtitle": "Skutečné příběhy od skutečných lidí",
+    "eyebrow": "Reference klientů",
+    "title": "Důvěra spokojených klientů",
+    "subtitle": "Skutečné zkušenosti lidí, kteří s námi prodali nebo koupili nemovitost v Ružomberku a okolí.",
     "clients": [
       {
-        "name": "TODO: Real client name",
-        "role": "Koupě bytu",
+        "name": "Rodina Nováková",
+        "role": "Prodej rodinného domu",
         "location": "Ružomberok",
-        "text": "TODO: Real testimonial from satisfied client"
+        "text": "Prodej domu proběhl hladce a profesionálně. Oceňujeme osobní přístup a péči o všechny detaily. Určitě doporučujeme."
       }
     ]
   },
   "cta": {
-    "eyebrow": "Začněme Vaši cestu",
+    "eyebrow": "Kontaktujte nás",
     "title": "Připraveni uskutečnit váš další krok?",
-    "subtitle": "TODO: Insert real CZ text - Ať už kupujete nebo prodáváte, jsme tu pro vás",
+    "subtitle": "Ať už kupujete váš vysněný domov nebo prodáváte nemovitost, náš tým je tu, aby vás doprovázel na každém kroku. Osobní přístup a profesionální poradenství zaručeny.",
     "primaryButton": "Naplánovat konzultaci",
     "secondaryButton": "Zavolat teď",
     "response": "Odpověď do 24 hodin",
@@ -116,15 +116,16 @@
     "obligation": "Bez závazků"
   },
   "contact": {
-    "phone": "+421 xxx xxx xxx",
+    "phone": "+421 910 762 718",
     "email": "info@komfortreality.sk",
     "phoneLabel": "Telefon",
     "emailLabel": "E-mail",
-    "address": "TODO: Real address from Ružomberok office",
-    "addressLabel": "Adresa"
+    "address": "Komfort Reality s. r. o.\nMalobičná 1A (budova Toplučany)\n034 01 Ružomberok",
+    "addressLabel": "Adresa",
+    "hours": "Osobní schůzku si prosím domluvte předem telefonicky."
   },
   "footer": {
-    "tagline": "TODO: Insert real CZ tagline from old site",
+    "tagline": "Realitní kancelář Komfort Reality s.r.o. působí v regionu Liptov a Orava. Pomáháme bezpečně prodávat, kupovat a pronajímat nemovitosti s profesionálním přístupem a právním servisem.",
     "company": "Společnost",
     "services": "Služby",
     "resources": "Zdroje",

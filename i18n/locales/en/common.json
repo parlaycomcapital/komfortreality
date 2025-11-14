@@ -7,10 +7,10 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Premium Real Estate Services",
-    "title": "Discover Your Perfect Property",
-    "subtitle": "TODO: Insert real EN text - currently: Over 10 years of excellence in delivering premium real estate services in Ružomberok and surrounding areas.",
-    "primaryCta": "Explore Properties",
+    "eyebrow": "Real Estate Agency · Liptov & Orava",
+    "title": "Komfort Reality – Your Trusted Partner in Real Estate",
+    "subtitle": "We help you safely sell, buy, or rent a property in the Liptov and Orava regions. Personal approach, complete legal support, and years of experience all in one place.",
+    "primaryCta": "Browse Listings",
     "secondaryCta": "Sell My Property",
     "searchTitle": "Find Your Dream Home",
     "searchLocation": "Location (City, District)",
@@ -22,24 +22,24 @@
   "stats": {
     "experience": {
       "number": "10+",
-      "label": "Years of Excellence",
-      "description": "Proven track record in real estate"
+      "label": "Years of Experience",
+      "description": "Years of experience in the Liptov & Orava real estate market"
     },
     "transactions": {
       "number": "500+",
       "label": "Successful Transactions",
-      "description": "Helping families find their homes"
+      "description": "Successfully completed sales, purchases, and rentals"
     },
     "rating": {
       "number": "4.9⭐",
-      "label": "Google Rating",
-      "description": "Trusted by hundreds of satisfied clients"
+      "label": "Satisfied Clients",
+      "description": "Long-term client satisfaction and strong referrals"
     }
   },
   "properties": {
-    "eyebrow": "Premium Selection",
+    "eyebrow": "Current Listings",
     "title": "Featured Properties",
-    "subtitle": "TODO: Insert real EN text - Handpicked luxury properties in Ružomberok and surroundings",
+    "subtitle": "We only feature verified, real properties in Ružomberok, Liptov, and surrounding areas. All listings are regularly updated.",
     "viewDetails": "View Details",
     "viewAll": "View All Properties",
     "beds": "Beds",
@@ -47,68 +47,68 @@
     "area": "Area"
   },
   "about": {
-    "eyebrow": "Why Komfort Reality",
-    "title": "Excellence in Every Transaction",
-    "subtitle": "TODO: Insert real EN text from old site about section",
+    "eyebrow": "About Komfort Reality",
+    "title": "Your Trusted Partner in the Region",
+    "subtitle": "Komfort Reality is a well-established real estate agency based in Ružomberok. For several years, we have been guiding clients through the process of selling, purchasing, and renting properties across the Liptov and Orava regions. Our mission is not only to complete the transaction but to ensure that the entire process is transparent, safe, and stress-free. We combine deep local market knowledge with a personal approach and complete legal support, providing a professional service you can rely on.",
     "trusted": {
-      "title": "Trusted & Transparent",
-      "description": "TODO: Real EN text - Full legal support and transparent processes"
+      "title": "Fair Approach",
+      "description": "Transparent communication, clear contracts, and complete legal service at every stage"
     },
     "premium": {
-      "title": "Premium Selection",
-      "description": "TODO: Real EN text - Exclusive access to the finest properties"
+      "title": "Market Knowledge",
+      "description": "Detailed expertise in the Liptov and Orava regions – we know the locations, prices, and opportunities"
     },
     "expert": {
-      "title": "Expert Guidance",
-      "description": "TODO: Real EN text - Experienced agents with deep market knowledge"
+      "title": "Personal Touch",
+      "description": "We guide each client individually – from first contact to key handover"
     }
   },
   "services": {
     "eyebrow": "Our Services",
     "title": "Comprehensive Real Estate Solutions",
-    "subtitle": "TODO: Insert real EN text - From initial consultation to final handover",
+    "subtitle": "From initial consultation to key handover – we guide you through every step.",
     "buying": {
-      "title": "Property Acquisition",
-      "description": "TODO: Real EN service description from old site"
+      "title": "Property Purchase",
+      "description": "We help you find the right property in Ružomberok, Liptov, and surrounding areas. We recommend suitable locations, verify legal status, and prepare documentation to ensure a smooth and secure purchase. From the first viewing to the final handover, you have a reliable partner by your side."
     },
     "selling": {
       "title": "Property Sales",
-      "description": "TODO: Real EN service description from old site"
+      "description": "We handle the entire selling process – from setting the right price and preparing the property, to marketing, viewings, and contract signing. We provide legal documentation, coordinate with the cadastre, and assist with bank communication. Your goal is to sell safely; our goal is to make it happen smoothly."
     },
     "legal": {
-      "title": "Legal Advisory",
-      "description": "TODO: Real EN service description from old site"
+      "title": "Legal Support",
+      "description": "We handle all legal aspects of the transaction – reservation contracts, purchase agreements, and cadastre submissions. We work with lawyers and notaries to ensure that all documents comply with current legislation and protect your interests."
     },
     "valuation": {
       "title": "Property Valuation",
-      "description": "TODO: Real EN service description from old site"
+      "description": "We provide professional market valuation of your property based on current market conditions, location, and property condition."
     },
     "mortgage": {
-      "title": "Mortgage Consulting",
-      "description": "TODO: Real EN service description from old site"
+      "title": "Mortgage Assistance",
+      "description": "We cooperate with several financial institutions and help clients find the right mortgage solutions. We explain the terms, assist with required documentation, and coordinate with banks to ensure a seamless process."
     },
     "management": {
-      "title": "Property Management",
-      "description": "TODO: Real EN service description from old site"
+      "title": "Complete Care",
+      "description": "We provide comprehensive service – from property search, through legal advisory, to final handover. Everything in one place, with emphasis on quality and security."
     }
   },
   "testimonials": {
-    "eyebrow": "Client Testimonials",
-    "title": "Trusted by Hundreds of Happy Clients",
-    "subtitle": "Real stories from real people",
+    "eyebrow": "Client References",
+    "title": "Trusted by Satisfied Clients",
+    "subtitle": "Real experiences from people who sold or bought property with us in Ružomberok and surrounding areas.",
     "clients": [
       {
-        "name": "TODO: Real client name",
-        "role": "Property Buyer",
+        "name": "The Novák Family",
+        "role": "House Sale",
         "location": "Ružomberok",
-        "text": "TODO: Real testimonial from satisfied client"
+        "text": "The sale went smoothly and professionally. We appreciate the personal approach and attention to every detail. Highly recommended."
       }
     ]
   },
   "cta": {
-    "eyebrow": "Let's Start Your Journey",
+    "eyebrow": "Get in Touch",
     "title": "Ready to Make Your Next Move?",
-    "subtitle": "TODO: Insert real EN text - Whether buying or selling, we're here for you",
+    "subtitle": "Whether you're buying your dream home or selling your property, our team is here to guide you every step of the way. Personal approach and professional advisory guaranteed.",
     "primaryButton": "Schedule Consultation",
     "secondaryButton": "Call Now",
     "response": "Response within 24 hours",
@@ -116,15 +116,16 @@
     "obligation": "No obligation"
   },
   "contact": {
-    "phone": "+421 xxx xxx xxx",
+    "phone": "+421 910 762 718",
     "email": "info@komfortreality.sk",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
-    "address": "TODO: Real address from Ružomberok office",
-    "addressLabel": "Address"
+    "address": "Komfort Reality s. r. o.\nMalobičná 1A (TopHouse Building)\n034 01 Ružomberok, Slovakia",
+    "addressLabel": "Address",
+    "hours": "Please schedule personal meetings by phone in advance."
   },
   "footer": {
-    "tagline": "TODO: Insert real EN tagline from old site",
+    "tagline": "Komfort Reality s.r.o. is a real estate agency serving the Liptov and Orava regions. We help safely sell, buy, and rent properties with professional approach and legal service.",
     "company": "Company",
     "services": "Services",
     "resources": "Resources",
