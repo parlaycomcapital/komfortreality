@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "languages": ["sk", "cz", "en"],
+    "defaultLanguage": "sk",
+    "brandName": "Komfort Reality"
+  },
+  "navigation": {
+    "home": {
+      "sk": "Domov",
+      "cz": "Domů",
+      "en": "Home"
+    },
+    "about": {
+      "sk": "O nás",
+      "cz": "O nás",
+      "en": "About"
+    },
+    "services": {
+      "sk": "Služby",
+      "cz": "Služby",
+      "en": "Services"
+    },
+    "properties": {
+      "sk": "Nehnuteľnosti",
+      "cz": "Nemovitosti",
+      "en": "Properties"
+    },
+    "contact": {
+      "sk": "Kontakt",
+      "cz": "Kontakt",
+      "en": "Contact"
+    }
+  },
+  "hero": {
+    "eyebrow": {
+      "sk": "Prémiové realitné služby",
+      "cz": "Prémiové realitní služby",
+      "en": "Premium Real Estate Excellence"
+    },
+    "title": {
+      "sk": "Objavte váš dokonalý domov",
+      "cz": "Objevte váš dokonalý domov",
+      "en": "Discover Your Perfect Property"
+    },
+    "subtitle": {
+      "sk": "Viac ako 10 rokov skúseností v poskytovaní špičkových realitných služieb. Profesionalita, dôvera a diskrétnosť v každom projekte.",
+      "cz": "Více než 10 let zkušeností v poskytování špičkových realitních služeb. Profesionalita, důvěra a diskrétnost v každém projektu.",
+      "en": "Over 10 years of excellence in delivering premium real estate services. Professionalism, trust, and discretion in every transaction."
+    },
+    "primaryCta": {
+      "sk": "Prehliadnuť nehnuteľnosti",
+      "cz": "Prohlédnout nemovitosti",
+      "en": "Explore Properties"
+    },
+    "secondaryCta": {
+      "sk": "Predať nehnuteľnosť",
+      "cz": "Prodat nemovitost",
+      "en": "Sell My Property"
+    },
+    "realPropertiesOnly": {
+      "sk": "V našej ponuke nájdete vždy len reálne nehnuteľnosti",
+      "cz": "V naší nabídce najdete vždy jen reálné nemovitosti",
+      "en": "We only offer verified, real properties"
+    }
+  },
+  "search": {
+    "title": {
+      "sk": "Nájdite váš vysnívaný domov",
+      "cz": "Najděte váš vysněný domov",
+      "en": "Find Your Dream Home"
+    },
+    "propertyType": {
+      "sk": "Typ nehnuteľnosti",
+      "cz": "Typ nemovitosti",
+      "en": "Property Type"
+    },
+    "location": {
+      "sk": "Lokalita (Mesto, Okres)",
+      "cz": "Lokalita (Město, Okres)",
+      "en": "Location (City, District)"
+    },
+    "priceRange": {
+      "sk": "Cenové rozpätie",
+      "cz": "Cenové rozpětí",
+      "en": "Price Range"
+    },
+    "searchButton": {
+      "sk": "Vyhľadať nehnuteľnosti",
+      "cz": "Vyhledat nemovitosti",
+      "en": "Search Properties"
+    },
+    "popularLabel": {
+      "sk": "Obľúbené:",
+      "cz": "Oblíbené:",
+      "en": "Popular:"
+    },
+    "types": {
+      "apartment": {
+        "sk": "Byt",
+        "cz": "Byt",
+        "en": "Apartment"
+      },
+      "house": {
+        "sk": "Rodinný dom",
+        "cz": "Rodinný dům",
+        "en": "House"
+      },
+      "villa": {
+        "sk": "Vila",
+        "cz": "Vila",
+        "en": "Villa"
+      },
+      "land": {
+        "sk": "Pozemok",
+        "cz": "Pozemek",
+        "en": "Land"
+      },
+      "commercial": {
+        "sk": "Komerčná nehnuteľnosť",
+        "cz": "Komerční nemovitost",
+        "en": "Commercial Property"
+      }
+    }
+  },
+  "about": {
+    "eyebrow": {
+      "sk": "Naša história",
+      "cz": "Naše historie",
+      "en": "Our Story"
+    },
+    "title": {
+      "sk": "O Komfort Reality",
+      "cz": "O Komfort Reality",
+      "en": "About Komfort Reality"
+    },
+    "body": {
+      "sk": "Realitná kancelária Komfort Reality s.r.o. ponúka viac ako 10-ročné skúsenosti na realitnom trhu. Špecializujeme sa na komplexné sprostredkovanie predaja, kúpy a nájmu nehnuteľností. Poskytujeme profesionálne právne poradenstvo, zabezpečenie hypotekárnych úverov a kompletný servis pri všetkých právnych úkonoch súvisiacich s nehnuteľnosťami – od bytov a rodinných domov až po pozemky, garáže a komerčné priestory.",
+      "cz": "Realitní kancelář Komfort Reality s.r.o. nabízí více než 10letou zkušenost na realitním trhu. Specializujeme se na komplexní zprostředkování prodeje, koupě a pronájmu nemovitostí. Poskytujeme profesionální právní poradenství, zajištění hypotečních úvěrů a kompletní servis při všech právních úkonech souvisejících s nemovitostmi – od bytů a rodinných domů až po pozemky, garáže a komerční prostory.",
+      "en": "Komfort Reality is a distinguished real estate agency with over a decade of expertise in the property market. We specialize in comprehensive brokerage services for sales, purchases, and rentals. Our professional legal advisory, mortgage facilitation, and complete support for all property-related legal matters encompass apartments, houses, land, garages, and commercial spaces."
+    },
+    "commitment": {
+      "sk": "Každému klientovi venujeme individuálny prístup, diskrétnosť a maximálnu profesionalitu.",
+      "cz": "Každému klientovi věnujeme individuální přístup, diskrétnost a maximální profesionalitu.",
+      "en": "We provide each client with personalized attention, discretion, and the highest level of professionalism."
+    }
+  },
+  "services": {
+    "eyebrow": {
+      "sk": "Naše služby",
+      "cz": "Naše služby",
+      "en": "Our Services"
+    },
+    "title": {
+      "sk": "Komplexné realitné riešenia",
+      "cz": "Komplexní realitní řešení",
+      "en": "Comprehensive Real Estate Solutions"
+    },
+    "subtitle": {
+      "sk": "Od prvej konzultácie až po odovzdanie kľúčov – poskytujeme komplexný servis šitý na mieru vašim potrebám.",
+      "cz": "Od první konzultace až po předání klíčů – poskytujeme komplexní servis šitý na míru vašim potřebám.",
+      "en": "From initial consultation to final handover – we provide end-to-end services tailored to your unique needs."
+    },
+    "legal": {
+      "title": {
+        "sk": "Právne poradenstvo",
+        "cz": "Právní poradenství",
+        "en": "Legal Advisory"
+      },
+      "description": {
+        "sk": "Kompletné právne poradenstvo pri nákupe, predaji a prenájme nehnuteľností. Naši experti zabezpečia všetky právne úkony, zmluvy a dokumentáciu v súlade s platnou legislatívou.",
+        "cz": "Kompletní právní poradenství při nákupu, prodeji a pronájmu nemovitostí. Naši experti zajistí všechny právní úkony, smlouvy a dokumentaci v souladu s platnou legislativou.",
+        "en": "Comprehensive legal advisory for property purchases, sales, and rentals. Our experts handle all legal procedures, contracts, and documentation in full compliance with current legislation."
+      }
+    },
+    "buying": {
+      "title": {
+        "sk": "Kúpa nehnuteľnosti",
+        "cz": "Koupě nemovitosti",
+        "en": "Property Acquisition"
+      },
+      "description": {
+        "sk": "Odborné sprevádzanie počas celého procesu kúpy nehnuteľnosti. Pomôžeme vám nájsť ideálnu nehnuteľnosť, vyjednáme najlepšie podmienky a zabezpečíme bezproblémový priebeh transakcie.",
+        "cz": "Odborné doprovázení během celého procesu koupě nemovitosti. Pomůžeme vám najít ideální nemovitost, vyjednáme nejlepší podmínky a zajistíme bezproblémový průběh transakce.",
+        "en": "Expert guidance throughout the entire property acquisition process. We help you find the ideal property, negotiate optimal terms, and ensure a seamless transaction."
+      }
+    },
+    "selling": {
+      "title": {
+        "sk": "Predaj nehnuteľnosti",
+        "cz": "Prodej nemovitosti",
+        "en": "Property Sales"
+      },
+      "description": {
+        "sk": "Maximalizujte hodnotu vašej nehnuteľnosti prostredníctvom našej strategickej marketingovej stratégie a rozsiahlej siete klientov. Profesionálna fotografia, prémiový marketing a odborné vyjednávanie.",
+        "cz": "Maximalizujte hodnotu vaší nemovitosti prostřednictvím naší strategické marketingové strategie a rozsáhlé sítě klientů. Profesionální fotografie, prémiový marketing a odborné vyjednávání.",
+        "en": "Maximize your property's value through our strategic marketing and extensive client network. Professional photography, premium marketing, and expert negotiation."
+      }
+    },
+    "mortgage": {
+      "title": {
+        "sk": "Hypotekárne poradenstvo",
+        "cz": "Hypoteční poradenství",
+        "en": "Mortgage Consulting"
+      },
+      "description": {
+        "sk": "Získajte prístup k najlepším finančným možnostiam s našimi hypotekárnymi službami. Spolupracujeme s popredným bankami pre zabezpečenie konkurenčných úrokových sadzieb.",
+        "cz": "Získejte přístup k nejlepším finančním možnostem s našimi hypotečními službami. Spolupracujeme s předními bankami pro zajištění konkurenčních úrokových sazeb.",
+        "en": "Access optimal financing options through our mortgage advisory services. We partner with leading banks to secure competitive rates for your investment."
+      }
+    },
+    "valuation": {
+      "title": {
+        "sk": "Odhad nehnuteľnosti",
+        "cz": "Odhad nemovitosti",
+        "en": "Property Valuation"
+      },
+      "description": {
+        "sk": "Presné tržné ocenenie vašej nehnuteľnosti. Naši experti analyzujú porovnateľné predaje, trhové trendy a stav nehnuteľnosti pre exaktné stanovenie ceny.",
+        "cz": "Přesné tržní ocenění vaší nemovitosti. Naši experti analyzují srovnatelné prodeje, tržní trendy a stav nemovitosti pro exaktní stanovení ceny.",
+        "en": "Accurate market-driven valuations for your property. Our experts analyze comparable sales, market trends, and property condition for precise pricing."
+      }
+    },
+    "guarantee": {
+      "title": {
+        "sk": "Najvyššia garancia",
+        "cz": "Nejvyšší garance",
+        "en": "Premium Guarantee"
+      },
+      "description": {
+        "sk": "Naše záruky kvality a transparentnosti poskytujú maximálnu istotu v každej fáze transakcie. Pracujeme len s overenými nehnuteľnosťami a poskytujeme komplexný právny servis.",
+        "cz": "Naše záruky kvality a transparentnosti poskytují maximální jistotu v každé fázi transakce. Pracujeme pouze s ověřenými nemovitostmi a poskytujeme komplexní právní servis.",
+        "en": "Our quality and transparency guarantees provide maximum security at every transaction stage. We work exclusively with verified properties and provide comprehensive legal services."
+      }
+    }
+  },
+  "stats": {
+    "experience": {
+      "number": "10+",
+      "label": {
+        "sk": "Rokov skúseností",
+        "cz": "Let zkušeností",
+        "en": "Years of Excellence"
+      },
+      "description": {
+        "sk": "Osvedčená história na realitnom trhu",
+        "cz": "Osvědčená historie na realitním trhu",
+        "en": "Proven track record in real estate"
+      }
+    },
+    "transactions": {
+      "number": "500+",
+      "label": {
+        "sk": "Úspešných transakcií",
+        "cz": "Úspěšných transakcí",
+        "en": "Successful Transactions"
+      },
+      "description": {
+        "sk": "Pomáhame rodinám nájsť ich domov",
+        "cz": "Pomáháme rodinám najít jejich domov",
+        "en": "Helping families find their homes"
+      }
+    },
+    "rating": {
+      "number": "4.9★",
+      "label": {
+        "sk": "Google hodnotenie",
+        "cz": "Google hodnocení",
+        "en": "Google Rating"
+      },
+      "description": {
+        "sk": "Dôvera stoviek spokojných klientov",
+        "cz": "Důvěra stovek spokojených klientů",
+        "en": "Trusted by hundreds of satisfied clients"
+      }
+    },
+    "volume": {
+      "number": "€50M+",
+      "label": {
+        "sk": "Predaných nehnuteľností",
+        "cz": "Prodaných nemovitostí",
+        "en": "Properties Sold"
+      },
+      "description": {
+        "sk": "Celková hodnota zrealizovaných transakcií",
+        "cz": "Celková hodnota realizovaných transakcí",
+        "en": "Total value of transactions completed"
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": {
+      "sk": "Kontaktujte nás",
+      "cz": "Kontaktujte nás",
+      "en": "Get In Touch"
+    },
+    "title": {
+      "sk": "Pripravení uskutočniť váš ďalší krok?",
+      "cz": "Připraveni uskutečnit váš další krok?",
+      "en": "Ready to Make Your Next Move?"
+    },
+    "subtitle": {
+      "sk": "Či už kupujete váš vysnívaný domov alebo predávate nehnuteľnosť, náš expertný tím je tu, aby vás sprevádzal na každom kroku.",
+      "cz": "Ať už kupujete váš vysněný domov nebo prodáváte nemovitost, náš expertní tým je tu, aby vás doprovázel na každém kroku.",
+      "en": "Whether you're buying your dream home or selling your property, our expert team is here to guide you every step of the way."
+    },
+    "office": {
+      "title": {
+        "sk": "Sídlo firmy",
+        "cz": "Sídlo firmy",
+        "en": "Company Headquarters"
+      },
+      "address": {
+        "sk": "Staničná 26, 010 01 Žilina",
+        "cz": "Staničná 26, 010 01 Žilina",
+        "en": "Staničná 26, 010 01 Žilina"
+      }
+    },
+    "branch": {
+      "title": {
+        "sk": "Kancelária",
+        "cz": "Kancelář",
+        "en": "Branch Office"
+      },
+      "address": {
+        "sk": "Malobičná 1A (budova Toплučany), 034 01 Ružomberok",
+        "cz": "Malobičná 1A (budova Toплučany), 034 01 Ružomberok",
+        "en": "Malobičná 1A (Toплučany Building), 034 01 Ružomberok"
+      }
+    },
+    "hours": {
+      "label": {
+        "sk": "Pracovné hodiny",
+        "cz": "Pracovní hodiny",
+        "en": "Office Hours"
+      },
+      "value": {
+        "sk": "Pondelok – Piatok: 9:00 – 17:00",
+        "cz": "Pondělí – Pátek: 9:00 – 17:00",
+        "en": "Monday – Friday: 9:00 AM – 5:00 PM"
+      }
+    },
+    "phoneLabel": {
+      "sk": "Telefón",
+      "cz": "Telefon",
+      "en": "Phone"
+    },
+    "emailLabel": {
+      "sk": "E-mail",
+      "cz": "E-mail",
+      "en": "Email"
+    },
+    "form": {
+      "title": {
+        "sk": "Napíšte nám",
+        "cz": "Napište nám",
+        "en": "Write to Us"
+      },
+      "name": {
+        "sk": "Meno",
+        "cz": "Jméno",
+        "en": "First Name"
+      },
+      "surname": {
+        "sk": "Priezvisko",
+        "cz": "Příjmení",
+        "en": "Last Name"
+      },
+      "phone": {
+        "sk": "Tel. číslo (+421)",
+        "cz": "Tel. číslo (+420)",
+        "en": "Phone Number"
+      },
+      "email": {
+        "sk": "E-mail",
+        "cz": "E-mail",
+        "en": "Email"
+      },
+      "message": {
+        "sk": "Správa",
+        "cz": "Zpráva",
+        "en": "Message"
+      },
+      "submit": {
+        "sk": "Odoslať",
+        "cz": "Odeslat",
+        "en": "Send Message"
+      },
+      "success": {
+        "sk": "Ďakujeme za vašu správu. Ozveme sa vám čoskoro.",
+        "cz": "Děkujeme za vaši zprávu. Ozveme se vám brzy.",
+        "en": "Thank you for your message. We'll be in touch soon."
+      }
+    },
+    "trust": {
+      "response": {
+        "sk": "Odpoveď do 24 hodín",
+        "cz": "Odpověď do 24 hodin",
+        "en": "Response within 24 hours"
+      },
+      "consultation": {
+        "sk": "Bezplatná konzultácia",
+        "cz": "Bezplatná konzultace",
+        "en": "Free consultation"
+      },
+      "obligation": {
+        "sk": "Bez záväzkov",
+        "cz": "Bez závazků",
+        "en": "No obligation"
+      }
+    }
+  },
+  "footer": {
+    "tagline": {
+      "sk": "Váš dôveryhodný partner v realitnom biznise. Poskytujeme excelentnosť od roku 2013 s integritou, odbornosťou a bezkonkurenčným servisom.",
+      "cz": "Váš důvěryhodný partner v realitním byznysu. Poskytujeme excelentnost od roku 2013 s integritou, odborností a bezkonkurenčním servisem.",
+      "en": "Your trusted partner in real estate. Delivering excellence since 2013 with integrity, expertise, and unmatched service."
+    },
+    "company": {
+      "title": {
+        "sk": "Spoločnosť",
+        "cz": "Společnost",
+        "en": "Company"
+      },
+      "about": {
+        "sk": "O nás",
+        "cz": "O nás",
+        "en": "About Us"
+      },
+      "team": {
+        "sk": "Náš tím",
+        "cz": "Náš tým",
+        "en": "Our Team"
+      },
+      "careers": {
+        "sk": "Kariéra",
+        "cz": "Kariéra",
+        "en": "Careers"
+      }
+    },
+    "services": {
+      "title": {
+        "sk": "Služby",
+        "cz": "Služby",
+        "en": "Services"
+      }
+    },
+    "legal": {
+      "title": {
+        "sk": "Právne informácie",
+        "cz": "Právní informace",
+        "en": "Legal"
+      },
+      "privacy": {
+        "sk": "Ochrana osobných údajov",
+        "cz": "Ochrana osobních údajů",
+        "en": "Privacy Policy"
+      },
+      "terms": {
+        "sk": "Podmienky používania",
+        "cz": "Podmínky používání",
+        "en": "Terms of Service"
+      },
+      "cookies": {
+        "sk": "Cookies",
+        "cz": "Cookies",
+        "en": "Cookie Policy"
+      }
+    },
+    "rights": {
+      "sk": "© {year} Komfort Reality. Všetky práva vyhradené.",
+      "cz": "© {year} Komfort Reality. Všechna práva vyhrazena.",
+      "en": "© {year} Komfort Reality. All rights reserved."
+    },
+    "crafted": {
+      "sk": "Vytvorené s",
+      "cz": "Vytvořeno s",
+      "en": "Crafted with"
+    },
+    "excellence": {
+      "sk": "pre excelenciu",
+      "cz": "pro excelenci",
+      "en": "for excellence"
+    },
+    "companyInfo": {
+      "ico": {
+        "sk": "IČO: 36736538",
+        "cz": "IČO: 36736538",
+        "en": "Company ID: 36736538"
+      },
+      "dic": {
+        "sk": "DIČ: 2022402393",
+        "cz": "DIČ: 2022402393",
+        "en": "Tax ID: 2022402393"
+      }
+    }
+  },
+  "cta": {
+    "primary": {
+      "sk": "Naplánovať konzultáciu",
+      "cz": "Naplánovat konzultaci",
+      "en": "Schedule Consultation"
+    },
+    "secondary": {
+      "sk": "Zavolať teraz",
+      "cz": "Zavolat teď",
+      "en": "Call Now"
+    },
+    "explore": {
+      "sk": "Preskúmať nehnuteľnosti",
+      "cz": "Prozkoumat nemovitosti",
+      "en": "Explore Properties"
+    },
+    "viewAll": {
+      "sk": "Zobraziť všetky nehnuteľnosti",
+      "cz": "Zobrazit všechny nemovitosti",
+      "en": "View All Properties"
+    },
+    "viewDetails": {
+      "sk": "Zobraziť detaily",
+      "cz": "Zobrazit detaily",
+      "en": "View Details"
+    },
+    "contactAgent": {
+      "sk": "Kontaktovať makléra",
+      "cz": "Kontaktovat makléře",
+      "en": "Contact Agent"
+    }
+  },
+  "properties": {
+    "featured": {
+      "sk": "Vybrané nehnuteľnosti",
+      "cz": "Vybrané nemovitosti",
+      "en": "Featured Properties"
+    },
+    "new": {
+      "sk": "Nové nehnuteľnosti",
+      "cz": "Nové nemovitosti",
+      "en": "New Listings"
+    },
+    "reserved": {
+      "sk": "Rezervované",
+      "cz": "Rezervováno",
+      "en": "Reserved"
+    },
+    "sold": {
+      "sk": "Predané",
+      "cz": "Prodáno",
+      "en": "Sold"
+    },
+    "beds": {
+      "sk": "Izby",
+      "cz": "Pokoje",
+      "en": "Beds"
+    },
+    "baths": {
+      "sk": "Kúpeľne",
+      "cz": "Koupelny",
+      "en": "Baths"
+    },
+    "area": {
+      "sk": "Plocha",
+      "cz": "Plocha",
+      "en": "Area"
+    }
+  },
+  "testimonials": {
+    "eyebrow": {
+      "sk": "Hodnotenia klientov",
+      "cz": "Hodnocení klientů",
+      "en": "Client Testimonials"
+    },
+    "title": {
+      "sk": "Dôvera stoviek spokojných klientov",
+      "cz": "Důvěra stovek spokojených klientů",
+      "en": "Trusted by Hundreds of Happy Clients"
+    },
+    "subtitle": {
+      "sk": "Skutočné príbehy skutočných ľudí, ktorí našli svoju dokonalú nehnuteľnosť s nami.",
+      "cz": "Skutečné příběhy skutečných lidí, kteří našli svou dokonalou nemovitost s námi.",
+      "en": "Real stories from real people who found their perfect property with us."
+    }
+  },
+  "common": {
+    "readMore": {
+      "sk": "Čítať viac",
+      "cz": "Číst více",
+      "en": "Read More"
+    },
+    "learnMore": {
+      "sk": "Zistiť viac",
+      "cz": "Zjistit více",
+      "en": "Learn More"
+    },
+    "close": {
+      "sk": "Zavrieť",
+      "cz": "Zavřít",
+      "en": "Close"
+    },
+    "menu": {
+      "sk": "Menu",
+      "cz": "Menu",
+      "en": "Menu"
+    },
+    "language": {
+      "sk": "Slovenčina",
+      "cz": "Čeština",
+      "en": "English"
+    }
+  }
+}
+
